@@ -2,5 +2,19 @@
   "metricsLifetime": 604800000,
   "public": {
     "apmEngineUrl": "https://apm-engine.YOUR_DOMAIN.com"
+  },
+  "private": {
+    "adminUser": {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "admin"
+    },
+    "apps": [
+      {
+        "name": "yourAppName",
+        "appId": "yourAppID",
+        "secret": "yourSecret"
+      }
+    ],
   }
 }
